@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content:'';
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
+body {
+    font: normal 14px/20px Arial, Helvetica, sans-serif;
+    background: url("img/bg.jpg");
+
+}
+
+.content-center {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #FFFFFF;
+}
+
+/*header*/
+
+.top-menu {
+    padding: 20px;
+}
+.navbar-logo {
+    display: inline-block;
+}
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu-main li {
+    display: inline-block;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+    content: "|";
+    color: #E7E7E7;
+    display: inline-block;
+    padding-left: 10px;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+    text-decoration: none;
+    position: relative;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #787878;
+}
+.menu-main  .active {
+    color: #80CDE2;
+}
+
+/*top-content*/
+.top-content {
+    background: url("img/slider_gradient.png");
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.top-content-text {
+    float: right;
+    width: 450px;
+}
+
+
