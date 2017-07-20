@@ -23,13 +23,17 @@ body {
 }
 
 .content-center {
+    background: #fff;
     width: 1100px;
     margin: 0 auto;
+    -webkit-border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
 
 }
 
+
 .header {
-    background: #FFFFFF;
+    margin-top: 50px;
 }
 
 /*header*/
@@ -233,6 +237,55 @@ table
 */
 
 
+/*about*/
+.left-about {
+    width: 650px;
+    padding-top: 50px;
+    padding-left: 30px;
+    float: left;
+}
+.right-about {
+    width: 250px;
+    float: right;
+    padding-top: 50px;
+}
+
+.left-about div {
+    padding-bottom: 30px;
+}
+
+.about-text {
+    padding-left: 220px;
+}
+
+.about-text h5 {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.about-text p {
+    line-height: 1.5;
+    padding-bottom: 25px;
+    color: #9BA0A1;
+}
+
+.right-about-second , .right-about-first{
+    background-color: #ECECEC;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    padding: 15px;
+}
+
+.right-about p {
+    color: #A6A9AB;
+    padding-bottom: 5px;
+}
+
+.right-about span{
+    color: #F68475;
+    font-weight: bold;
+    font-size: 12px;
+}
 /*footer content*/
 .footer {
     background: #F77462;
@@ -240,7 +293,17 @@ table
 
 .footer h6 {
     text-align:center;
-    font-size:18px;
+    font-size:20px;
+    color: #FFF;
+    padding-top: 40px;
+}
+
+.footer p {
+    text-align:center;
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 
