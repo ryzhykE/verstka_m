@@ -13,6 +13,7 @@
 }
 .clearfix:after {
     clear:both;
+    visibility: hidden;
 }
 
 body {
@@ -22,8 +23,9 @@ body {
 }
 
 .content-center {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
+
 }
 
 .header {
@@ -47,14 +49,17 @@ body {
 .menu-main li {
     display: inline-block;
 }
-.menu-main li {display: inline-block;}
+.menu-main li {
+    display: inline-block;
+}
 .menu-main li:after {
     content: "|";
     color: #E7E7E7;
     display: inline-block;
     padding-left: 10px;
 }
-.menu-main li:last-child:after {content: none;}
+.menu-main li:last-child:after {
+    content: none;}
 .menu-main a {
     text-decoration: none;
     position: relative;
@@ -74,11 +79,174 @@ body {
     background: url("img/slider_gradient.png");
     padding-top: 50px;
     padding-left: 80px;
+    padding-right:50px;
+}
+
+.top-content-img img {
+    width: 350px;
 }
 
 .top-content-text {
     float: right;
-    width: 450px;
+    width: 400px;
 }
+
+.top-content-text h2 {
+    font-weight: normal;
+    color: rgb(163,183,187);
+    padding-bottom: 20px;
+}
+
+.top-content-text h1 {
+    color: rgb(0,61,72);
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.top-content-text p {
+    color: rgb(139,139,139);
+    padding-bottom:30px;
+}
+
+.top-content-btn {
+    background: rgb(247,116,98);
+    border:none;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.top-content-img {
+    float:left;
+}
+/*news*/
+
+.news {
+    background: #6DC5DD;
+    padding:50px 20px;
+    height: 250px;
+    margin-top:-5px;
+}
+
+
+.first-news, .second-news , .third-news {
+    float:left;
+    width:29%;
+}
+
+.first-news, .second-news {
+    margin-right:60px;
+}
+
+.news-img {
+    float:left;
+}
+
+.news-text {
+    margin-left:90px
+}
+
+.first-news h4, .second-news h4, .third-news h4{
+    color: #FFF;
+    font-size:16px;
+    padding-bottom:20px;
+}
+
+.first-news p, .second-news p, .third-news p{
+    color: #FFF;
+    padding-bottom:20px;
+}
+
+.read-more-link {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.text-news {
+    padding-left: 80px;
+}
+
+
+
+
+
+
+
+/* in the lesson
+
+table
+.table-three-columns {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	background: #6DC5DD;
+}
+
+
+.table-three-columns > div {
+	display: table-row;
+}
+
+.table-three-columns > div > div {
+	display: table-cell;
+}
+
+.table-three-columns  h2 {
+	font-size: 16px;
+	font-weight:bold;
+	color: #fff;
+}
+
+.table-three-columns  p {
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+
+.read-more-link {
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+
+}
+.sprite-pic {
+	width:63px;
+	height: 63px;
+	background: url("img/col_pic_slider.png") no-repeat;
+}
+.sprite-flag {
+	background-position: 0 0;
+}
+
+.sprite-photo {
+	background-position: -63px 0;
+}
+.sprite-home {
+	background-position: -126px 0;
+}
+
+*/
+
+
+/*footer content*/
+.footer {
+    background: #F77462;
+}
+
+.footer h6 {
+    text-align:center;
+    font-size:18px;
+}
+
+
+
+
+
+
 
 
